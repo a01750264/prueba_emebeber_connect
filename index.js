@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/principal", (req, res) => {
   console.log("Entre");
-  res.sendFile(path.join(__dirname, "..", "prueba.html"));
+  res.sendFile("/home/ec2-user/prueba_emebeber_connect/prueba.html");
 });
 
 //No es necesario que tengan tanto el protocolo http y https funcionando al mismo tiempo
