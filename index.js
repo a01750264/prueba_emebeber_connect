@@ -26,4 +26,4 @@ app.get("/principal", (req, res) => {
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 
-httpsServer.listen(443, () => console.log("Corriendo HTTPS 8443"));
+httpsServer.listen(442, () => console.log("Corriendo HTTPS 8443"));
